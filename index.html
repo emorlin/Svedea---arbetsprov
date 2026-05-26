@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="sv">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0" />
+        <title>Svedea – Försäkringar som gör skillnad</title>
+        <meta
+            name="description"
+            content="Responsiv och tillgänglig huvudnavigation byggd med vanilla HTML, CSS och JavaScript – ett arbetsprov för Svedea." />
+        <link
+            rel="canonical"
+            href="https://emorlin.github.io/svedea" />
+        <link
+            rel="preconnect"
+            href="https://fonts.googleapis.com" />
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@200;400;500;600;700&display=swap"
+            rel="stylesheet" />
+        <link
+            rel="stylesheet"
+            href="styles.css" />
+    </head>
+    <body>
+        <a
+            class="skip-link"
+            href="#main-content"
+            >Hoppa till innehåll</a
+        >
+
+        <header class="site-header">
+            <nav
+                id="main-nav"
+                aria-label="Huvudnavigation">
+                <!-- Rendered by main.js -->
+            </nav>
+        </header>
+
+        <div
+            id="mobile-menu"
+            role="dialog"
+            aria-modal="true"
+            aria-label="Navigeringsmeny"
+            hidden>
+            <!-- Rendered by main.js -->
+        </div>
+
+        <main
+            id="main-content"
+            class="demo-content">
+            <h1>Svedea Navigation – Arbetsprov</h1>
+            <p>
+                Denna sida demonstrerar en responsiv och tillgänglig navigation byggd med vanilla HTML, CSS och
+                JavaScript. Menydata renderas dynamiskt från ett JS-objekt i <code>nav-data.js</code>.
+            </p>
+            <p>Prova att öppna <b>Försäkringar</b> i desktopmenyn, eller klicka på hamburgerikonen på mobil.</p>
+            <p>
+                <a
+                    href="https://github.com/emorlin/svedea"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    Källkod och README på GitHub</a
+                >.
+            </p>
+        </main>
+
+        <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+        <script src="nav-data.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
